@@ -138,10 +138,3 @@ resource "azurerm_monitor_diagnostic_setting" "app_service_diag" {
     }
   }
 }
-
-# Front Door (Standard) placeholder — comment out until imported
-# resource "azurerm_frontdoor_standard" "fd" {
-#   name                = "Johnnyapp-fd"
-#   resource_group_name = azurerm_resource_group.rg.name
-#   location            = azurerm_resource_group.rg.location
-# }
